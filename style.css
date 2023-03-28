@@ -1,0 +1,97 @@
+body{
+    width: 175vh;
+  
+   margin-top: 10px;margin-right: 25px;margin-bottom: 10px;margin-left: 100px;
+   
+    background-color: beige;
+    font-family:Roboto,arial,sans-serif;
+    background-size: cover;
+    font-size: medium;
+    font-weight: normal;
+    box-sizing: border-box;
+
+}
+
+b img{
+    border: 10px solid;
+    border-color: coral;
+    width: 64px;
+    height:64px;
+
+    animation: buddha running infinite 3s linear 0s  ;
+}
+
+@keyframes buddha{
+    50%{opacity: 0;}
+
+}
+
+header {
+    
+    background-color: gray;
+    color:gold;
+    padding: 20px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+h1{
+    color: white;
+}
+
+h2 p {
+    border-bottom: 5px;
+
+    color:blue;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    
+}
+
+nav ul li{
+    margin-right: 20px;
+
+}
+
+nav ul li a{
+    color: aliceblue;
+}
+img{
+    
+    width:400px;
+    float: right; 
+    
+}
+
+ .fa-twitter {
+    float: right;
+    
+    font-size: 1em;
+    color:aqua;   
+
+}
+
+.fa-youtube {
+    float:right;
+    font-size: 1em;
+    color:red;
+}
+
+footer {
+    border: 5px solid;
+    background-color:grey;
+    font-size: 30px;
+    text-align: center;
+    color:white
+}
+
+ li:hover{
+    color:blue
+}
+
+
